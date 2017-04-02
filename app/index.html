@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+ <html lang="en" ng-app="myApp" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>GitHub Search APP</title>
+  <meta name="description" content="GitHub Search APP Where We'll get user data and show there workflow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="row app-title-decorate" >
+    <div class="col-md-12 text-center app-title-size"><b><a href="#" class="headertitle">Github Search App</a></b></div>
+  </div>
+</br>
+  <div ui-view></div>
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+  <script src="bower_components/angular-google-chart/ng-google-chart.js"></script>
+  <script src="app.js"></script>
+  <script src="userList/userList.js"></script>
+  <script src="userList/userDetail.js"></script>
+</body>
+</html>

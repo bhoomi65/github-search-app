@@ -1,0 +1,58 @@
+a.headertitle {
+    color: #ffffff;
+}
+a.headertitle:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+.menu:before {
+  content: "[";
+}
+.menu:after {
+  content: "]";
+}
+.menu > li {
+  display: inline;
+}
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+.app-title-size{
+  font-size:20px
+}
+.border-div{
+  border
+}
+.app-title-decorate{
+  background-color: rgb(0, 188, 212);;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.a-text {
+  font-size:18px !important;
+}
+.btn-primary {
+    background-color: rgb(255, 64, 129)!important;
+    border-color: rgb(255, 64, 129)!important;
+    font-family: Roboto, sans-serif!important;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 5px 10px!important;
+    font-size: 17px!important;
+    border-radius: 5px!important;
+}
+hr {
+    width: 80%!important;
+    margin-left: 9%!important;
+}
